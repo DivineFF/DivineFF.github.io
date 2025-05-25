@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Moja Strona</title>
+  <title>Where To Eat</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
  <nav class="navbar">
     <div class="navbar__container">
-        <a href="/" id="navbar__logo">Next</a>
-        <div class="navbar__toogle" id="mobile-menu">
+        <a href="/" id="navbar__logo">Where To Eat</a>
+        <div class="navbar__toggle" id="mobile-menu">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
@@ -22,23 +22,97 @@
                 </a>
             </li>
             <li class="navbar__item">
-                <a href="/tech.html" class="navbar__links">
-                    Tech
+                <a href="/locations.html" class="navbar__links">
+                    Locations
                 </a>
             </li>
             <li class="navbar__item">
                 <a href="/" class="navbar__links">
-                    Products
+                    Categories
                 </a>
             </li>
             <li class="navbar__btn">
                 <a href="/" class="button">
-                    Sign Up
+                    Contact Us
                 </a>
             </li>
         </ul>
     
     </div>
  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="section">
+    <div class="section__content">
+      <h1>Welcome to Where To Eat</h1>
+      <p>
+        We are a group of food enthusiasts from Poznań who love to discover and recommend the best local restaurants, cafes, and eateries in our city.
+        Our mission is simple: help you explore the diverse culinary scene of Poznań with ease and excitement. Whether you're looking for traditional Polish dishes or modern fusion cuisine,
+        we provide honest reviews and personal picks based on real experience.
+      </p>
+      <p>
+        This site is updated regularly with our latest discoveries, so check back often to find your new favorite place to eat in Poznań!
+      </p>
+    </div>
+  </section>
+
+  <!-- Explore Section (was Locations) -->
+  <section id="locations" class="section">
+    <div class="section__content">
+      <h2>Recommendations for today</h2>
+      <div class="restaurant__list">
+        <div class="restaurant__card">
+          <h3>77 Sushi</h3>
+          <p>The best sushi in town especialy for students because of 50% discunts.</p>
+        </div>
+        <div class="restaurant__card">
+          <h3>KimChicken</h3>
+          <p>Restaurant which specialize in the best Korean chicken you can get in Poznań.</p>
+        </div>
+        <div class="restaurant__card">
+          <h3>Min's Table</h3>
+          <p>Tasty and traditional Korean meals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section id="categories" class="section">
+    <div class="section__content">
+      <h2>Categories</h2>
+      <div class="categories__grid">
+        <div class="category">Pizza</div>
+        <div class="category">Sushi</div>
+        <div class="category">Burgers</div>
+        <div class="category">Vegan</div>
+        <div class="category">Desserts</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="section__content">
+      <h2>Contact Us</h2>
+      <p>Have a place to recommend? Message us!</p>
+      <form class="contact__form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="button">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+  <script>
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menu = document.querySelector('.navbar__menu');
+    mobileMenu.addEventListener('click', () => {
+      mobileMenu.classList.toggle('is-active');
+      menu.classList.toggle('active');
+    });
+ <script src="app.js"></script>
 </body>
 </html>
