@@ -602,3 +602,28 @@ font-size: 2rem;
 .back-btn:hover {
   background-color: #4837ff;
 }
+
+
+.category-nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.category-nav-buttons .button {
+  padding: 12px 24px;
+  background-color: #f77062;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.category-nav-buttons .button:hover {
+  background-color: #4837ff;
+}
