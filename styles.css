@@ -582,3 +582,23 @@ font-size: 2rem;
   color: #888;
 }
 
+
+.back-to-categories {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.back-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #f77062;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #4837ff;
+}
