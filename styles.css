@@ -516,3 +516,63 @@ font-size: 2rem;
     color: white;
     transform: translateY(-2px);
   }
+
+  /*#intro {
+  background: #ffe0b2;
+  padding: 100px 20px;
+  text-align: center;
+}
+#intro h1 {
+  font-size: 3rem;
+  color: #f77062;
+}
+
+.scroll__btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 24px;
+  background-color: #f77062;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.scroll__btn:hover {
+  background-color: #4837ff;
+}
+
+
+.clickable-intro:hover {
+  background-color: #ffe8c2;
+  transition: background-color 0.3s ease;*/
+
+#intro {
+  height: 100vh; /* pełna wysokość okna */
+  background: #ffe0b2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+#intro:hover {
+  background-color: #ffe8c2;
+}
+
+#intro h1 {
+  color: #f77062;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#intro .click-hint {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #888;
+}
+}
