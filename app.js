@@ -15,7 +15,7 @@ menu.addEventListener('click', function(){
   }, 3000); // opóźnienie 3 sekundy
 });*/
 
-document.addEventListener('DOMContentLoaded', function () {
+/*document.addEventListener('DOMContentLoaded', function () {
   const scrollBtn = document.getElementById('scrollBtn');
   if (scrollBtn) {
     scrollBtn.addEventListener('click', function (e) {
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   }
-});
+});*/
 
 document.addEventListener('DOMContentLoaded', function () {
   const introSection = document.getElementById('intro');
