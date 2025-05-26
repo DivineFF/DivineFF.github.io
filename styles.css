@@ -627,3 +627,15 @@ font-size: 2rem;
 .category-nav-buttons .button:hover {
   background-color: #4837ff;
 }
+
+.logo-img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
+.logo-img {
+  height: 40px;
+  width: auto;
+  margin-right: 12px; /* ⬅️ this adds space between image and text */
+}
